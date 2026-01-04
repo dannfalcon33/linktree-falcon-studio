@@ -1,37 +1,37 @@
-import { Globe, Calendar, Video, Youtube } from 'lucide-react';
-import { SocialLink } from './types';
+import { Globe, Calendar, Video, Youtube } from "lucide-react";
+import { SocialLink } from "./types";
 
-export const GEMINI_MODEL = 'gemini-2.5-flash';
+export const GEMINI_MODEL = "gemini-2.5-flash";
 
-export const BRAND_NAME = "FALCON STUDIO DEV";
+export const BRAND_NAME = "Dann Falcon Dev";
 export const BRAND_BIO = "The Code is Art, Here I Will Create the Future";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    id: 'website',
-    title: 'Web Principal',
-    url: '#',
+    id: "website",
+    title: "Web Principal",
+    url: "#",
     icon: Globe,
-    featured: true
+    featured: true,
   },
   {
-    id: 'meeting',
-    title: 'Agenda una Reunion',
-    url: '#',
-    icon: Calendar
+    id: "meeting",
+    title: "Agenda una Reunion",
+    url: "#",
+    icon: Calendar,
   },
   {
-    id: 'tiktok',
-    title: 'Tiktok',
-    url: '#',
-    icon: Video
+    id: "tiktok",
+    title: "Tiktok",
+    url: "#",
+    icon: Video,
   },
   {
-    id: 'youtube',
-    title: 'YouTube',
-    url: '#',
-    icon: Youtube
-  }
+    id: "youtube",
+    title: "YouTube",
+    url: "#",
+    icon: Youtube,
+  },
 ];
 
 export const SYSTEM_INSTRUCTION = `
