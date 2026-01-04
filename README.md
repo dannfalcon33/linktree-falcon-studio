@@ -1,5 +1,7 @@
 # Linktree Falcon Studio
 
+![linktree](screencapture.png)
+
 Bienvenido a **Linktree Falcon Studio**, una aplicación web moderna y elegante diseñada para centralizar todos tus enlaces importantes en un solo lugar. Este proyecto sirve como una tarjeta de presentación digital interactiva, ideal para creadores de contenido y profesionales.
 
 ## 🚀 Características
@@ -55,7 +57,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 ## Live Demo
 
-https://linktree-falcon-studio.netlify.app/
+https://linktree-falcon-studio.yoshuasoto54.workers.dev/
 
 ## Sobre el Desarrollador 👨‍💻
 
