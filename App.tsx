@@ -40,7 +40,7 @@ const App: React.FC = () => {
                 <div className="relative mb-6 group">
                   <div className="w-28 h-28 md:w-32 md:h-32 rounded-full p-1 bg-gradient-to-tr from-fashion-gold to-gray-300 dark:to-zinc-700 shadow-xl">
                     <img
-                      src={isDarkMode ? "/1.png" : "/2.png"}
+                      src={isDarkMode ? "/picture.jpg" : "/picture.jpg"}
                       alt="Brand Profile"
                       className="w-full h-full rounded-full object-cover border-4 border-white dark:border-zinc-800 transition-all duration-500 group-hover:scale-105"
                     />
@@ -82,21 +82,7 @@ const App: React.FC = () => {
                 <p>
                   © {new Date().getFullYear()} {BRAND_NAME}. Todos los derechos
                   reservados.
-                </p>
-                <div className="flex justify-center space-x-4 mt-4 opacity-50">
-                  <a
-                    href="#"
-                    className="hover:text-fashion-black dark:hover:text-fashion-cream transition-colors"
-                  >
-                    Política de Privacidad
-                  </a>
-                  <a
-                    href="#"
-                    className="hover:text-fashion-black dark:hover:text-fashion-cream transition-colors"
-                  >
-                    Términos de Uso
-                  </a>
-                </div>
+                </p>{" "}
               </footer>
             </main>
           </div>
